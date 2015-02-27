@@ -1,0 +1,22 @@
+{
+  "name": "peak",
+  "version": "0.1.0",
+  "description": "A Peak server",
+  "author": {
+    "name": "Vitaly Berg",
+    "email": "bergusman@gmail.com",
+    "url": "http://bergusman.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergusman/peak-server"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.12.0",
+    "pg": "^4.3.0"
+  }
+}
